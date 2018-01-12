@@ -1,0 +1,157 @@
+
+
+
+#header {
+	background:rgba(3,169,244,1);
+}
+
+/**************LOGO***********************/
+
+.logo {
+	float: left;
+	margin-left: 20px;
+}
+.logo img{
+	max-width: 150px;
+	margin:0px auto;
+}
+
+
+
+/**************NAVIGATION***********************/
+
+.navbar {
+	border: none;}
+
+nav ul {
+	margin: 0px auto;
+	text-align: center;
+	/*margin-right: 20px;
+	margin-bottom: 0px;*/
+}
+
+nav li {
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	padding:20px;
+	border-bottom: 5px solid rgba(3,169,244,1);
+}
+
+nav li:hover {
+	border-bottom: 5px solid  #316075;
+	padding: 20px;
+}
+nav ul a {
+	color:white;
+	font-weight: 700;
+}
+nav ul a:hover, a:active, a:visited {
+	color:white;
+	text-decoration: none;
+}
+/**************CAROUSEL**************/
+
+#slajder {
+	box-shadow: 0px 0px 10px #000;
+	margin-top:-20px;
+}
+
+.carousel img {
+	width: 100%;
+}
+
+.carousel-control {
+ top:40% !important;
+ bottom: 40% !important;
+ padding: 20px;
+}
+
+/**************MAIN**************/
+#main {
+	padding: 20px 0px;
+	background-color: rgba(3,169,244,0.14);
+}
+#main h1 {
+	font-size: 40px;
+	border-left:5px solid rgba(3,169,244,0.54);
+	padding: 10px 0px;
+	background:rgba(3,169,244,0.34);
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+
+/**************CONCERT**************/
+#video {
+	margin-bottom: 10px;
+}
+
+#video h2 {
+	padding: 10px;
+	font-size: 25px;
+	border-bottom: 5px solid rgba(3,169,244,0.54);
+	max-width: 300px;
+	margin: 10px auto;
+}
+
+#concert {
+	background-color: rgba(3,169,244,0.14);
+}
+
+#concert .row {
+	padding-bottom: 35px;
+}
+
+#concert h2 {
+	padding: 10px;
+	transform:skew(160deg,180deg);
+	background-color: rgba(3,169,244,0.34);
+	border-bottom: 2px solid rgba(3,169,244,0.54);
+}
+
+.noidea {
+	text-align: center;
+	padding: 20px;
+	border-bottom: 50px;
+	
+}
+
+.order {
+	padding: 5px 20px;
+	background:rgba(3,169,244,0.34);
+	border:2px solid rgba(3,169,244,0.54);
+	border-radius:10px;
+	box-shadow: 0px 0px 3px #000;
+	text-transform: uppercase;
+}
+
+.order:hover {
+	color:white;
+	background:rgba(3,169,244,0.54);
+	border:2px solid rgba(3,169,244,0.74);
+}
+
+/**************FOOTER**************/
+
+#footer {
+	background: rgba(3,169,244,1);
+	color: white;
+}
+
+
+.social a {
+	padding: 10px;
+	color: white;
+}
+
+.copyrights {
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+}
+.copyrights p {
+	background: rgb(219, 243, 253);
+	font-size: 14px;
+	padding: 10px;
+}
